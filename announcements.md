@@ -5,18 +5,19 @@
 ## Conference call (Zoom/GoogleMeet/MicrosoftTeams)
 
 If no particular software is recommended by the admins/moderators of Hindu Economic Forum, will post
-the link of meeting here at least **5 minutes** before the meet. **Please note that** free versions
-of these meeting applications have time limits and, therefore, there may be two links. When the first
+the link of session here at least **5 minutes** before the start time. **Please note that** free versions
+of these conference applications have time limits and, therefore, there may be two links. When the first
 expires, I'd start conference on the seconde link.
 
-## Meeting time
+## Session time
 
 - Bangladesh Time: **Fridays 8:00 am – 09:30 am**
 - Pacific Time: Thursdays 7:00 pm - 8:30 pm
 
-## Please install these:
+## <span style='color: #f63;'>Setup:</span>
 
-Microsoft Visual Studio Code
+1. Please install Microsoft Visual Studio Code
+2. **Sign up for a gitlab.com account. Future updates will be provided on a gitlab page and you will need an account to access that. The link of the gitlab page will be posted here.**
 
 ## Contact information:
 
@@ -25,7 +26,7 @@ Microsoft Visual Studio Code
 
 <hr />
 
-## Friday 21, 2021 (Bangladesh Time) meet:
+## <span style='color: #f63;'>Friday 21, 2021 (Bangladesh Time) Session:</span>
 
  - https://meet.google.com/icg-xdtw-qsv
  - https://meet.google.com/mrn-rkzc-bau (only if the above link expires)
