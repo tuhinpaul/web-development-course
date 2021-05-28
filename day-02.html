@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Day01 title</title>
+    <style type="text/css">
+        #myheader {
+            color: red;
+            background-color: cornsilk;
+        }
+
+        #day_text {
+            color: blue;
+            font-weight: bold;
+        }
+
+        div {
+            font-family: Arial;
+
+            padding: 10px;
+            margin: 5px;
+            border-width: 1px;
+            border-color: blueviolet;
+            border-style: solid;
+            border-radius: 5px;
+
+            color: gray;
+            font-size: 1rem;
+        }
+
+        .general_section {
+            color: green;
+            border-style: dashed;
+            font-size: 2rem;
+        }
+        .footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myheader">
+        <span id="day_text">
+            Day 2</span> Tutorial
+    </div>
+
+    <div>Div following header</div>
+
+    <!--
+        specificity
+        box
+        inline style
+    ( parenthesis )
+    { curly brace }
+    [ square bracket ]
+    < angle bracket >
+    -->
+
+    parent
+    child
+    descendant
+
+    <div>This is section 1</div> After div
+
+    <div class="general_section footer">
+        This is section 2
+        <div>sub div 2.1</div>
+        after sub div 2.1
+    </div>
+</body>
+
+</html>
