@@ -14,6 +14,13 @@ expires, I'd start conference on the seconde link.
 - Bangladesh Time: **Fridays 8:00 am – 09:30 am**
 - Pacific Time: Thursdays 7:00 pm - 8:30 pm
 
+## Assignments:
+
+- **Assignment 02:** make html page imitating [Assignments/02.png](https://github.com/tuhinpaul/web-development-course/blob/2021-May/Assignments/02.png).
+  - **Due on Wednesday, June 02, 2021 by 11:59:59 PM (Bangladesh time)**.
+  - **How to submit:** share your *replit.com* link with your solution in [this google drive spread sheet](https://docs.google.com/spreadsheets/d/1odNLNP_SbN4sKJiz2PdfVHIMgGWdQ4O9k-c6FC3Lb4c/edit#gid=818181483)
+- **Assignment 01:** play with the HTML code in day-01.html
+
 ## <span style='color: #f63;'>Setup:</span>
 
 1. Please install Microsoft Visual Studio Code
