@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Day03 title</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 2em;
+            line-height: 150%;
+            color: #666;
+        }
+
+        h1 {
+            color: #333;
+            background-color: azure;
+            font-style: italic;
+        }
+
+        div.outer-span-1-a {
+            color: blueviolet;
+        }
+
+        span {
+            color: blue;
+            font-weight: bold;
+        }
+
+        span {
+            color: red;            
+        }
+
+        div {
+            background-color: azure;
+        }
+
+        #div3 > div {
+            padding: 2rem;
+        }
+
+        #div1 {
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1>
+        Day 03
+    </h1>
+    <h2>Tutoial &lt;on CSS specificity</h2>
+    
+    <span class="outer-span-1-a outer-span-1-b">
+        which selector will win here?: Some text
+        <span>outside</span>
+        <span style="color: #f93">saffron span</span>
+        any div
+    </span>
+    
+    Text directly below body
+
+    <div id="div1" class="outer-span-1-a">
+        div 1 content
+    </div>
+
+    <div id="div2">
+        div 2 content
+    </div>
+
+    <div id="div3">
+        div 3 content
+        <div>
+            Outer paragraph 1
+            <div>
+                inner paragraph 1.1
+                <div>
+                    inner paragraph 1.1.1
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
