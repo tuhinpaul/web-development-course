@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Day 04 title</title>
+    <style type="text/css">
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 2em;
+            line-height: 150%;
+            color: #666;
+        }
+
+        div {
+            padding: 10px;
+            text-align: center;
+        }
+
+        b {
+            font-family: sans-serif;
+        }
+
+        #abs1 {
+            position: absolute;
+            width: 150px;
+            height: 200px;
+            top: 10px;
+            right: 140px;
+            border: 1px dashed #900;
+            background-color: #fdd;
+        }
+
+        #sta1 {
+            height: 100px;
+            border: 1px dashed #996;
+            background-color: #ffc;
+            margin: 0px 10px 0px 10px;
+            text-align: left;
+        }
+
+        #flo1 {
+            margin: 0px 10px 0px 20px;
+            float: left;
+            width: 150px;
+            height: 200px;
+            border: 1px dashed #090;
+            background-color: #cfc;
+        }
+
+        #flo2 {
+            margin: 0px 20px 0px 10px;
+            float: right;
+            width: 150px;
+            height: 200px;
+            border: 1px dashed #090;
+            background-color: #cfc;
+        }
+
+        #abs2 {
+            position: absolute;
+            width: 150px;
+            height: 100px;
+            top: 80px;
+            left: 100px;
+            border: 1px dashed #990;
+            background-color: #fdd;
+        }
+
+        #rel1 {
+            position: relative;
+            border: 1px dashed #996;
+            background-color: #cff;
+            margin: 0px 10px 0px 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Floating Blocks and Stacking</h1>
+
+    <section style="position: relative;">
+
+        <div id="abs1">
+            <b>DIV #1</b><br />position: absolute;
+        </div>
+
+        <div id="flo1">
+            <b>DIV #2</b><br />float: left;
+        </div>
+
+        <div id="flo2">
+            <b>DIV #3</b><br />float: right;
+        </div>
+
+        Hello how are you? Hello how are you? <br /> And today?
+
+        <div id="sta1">
+            Hello how are you? Hello how are you? Hello how are you?
+            <b>DIV #4</b><br />no positioning
+        </div>
+
+        <div id="abs2">
+            <b>DIV #5</b><br />position: absolute;
+        </div>
+
+        <div id="rel1">
+            <b>DIV #6</b><br />position: relative;
+        </div>
+    </section>
+</body>
+
+</html>
