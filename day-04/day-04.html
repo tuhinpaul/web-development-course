@@ -37,6 +37,14 @@
             clear: left;
         }
 
+        .wrapper > div:last-child::before {
+            content: '“';
+        }
+
+        .wrapper > div:last-child::after {
+            content: '”';
+        }
+
         .crooked {
             position: relative;
             left: 2rem;
@@ -55,7 +63,7 @@
         <div class="crooked">C</div>
         <div>D</div>
         <div>E</div>
-        <div></div>
+        <div>Some text in a new block</div>
     </div>
 </body>
 
