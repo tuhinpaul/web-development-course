@@ -1,0 +1,23 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    padding: 1em;
+}
+  
+.title {
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+input {
+    padding: .5em;
+    font-size: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type='button']:hover {
+    background-color: chocolate;
+    color: blue;
+}
