@@ -48,3 +48,29 @@ const execute = function() {
 
 // if else
 // loop
+
+// Javascript Falsy values: https://developer.mozilla.org/en-US/docs/Glossary/Truthy
+
+let x = 11; // integer
+// boolean: true false
+// = and == and ===  are different
+
+if (x == 0) {
+    console.log(`x is 0`);
+} else if (x % 3 == 0) {
+    console.log(`x is divisible by 3.`);
+} else if (x % 3 == 1) {
+    console.log(`remainder of x/3 is 1.`);
+} else {
+    console.log(`remainder of x/3 is 2.`);
+}
+
+// loop: for, while, do..while
+// https://www.w3schools.com/js/js_loop_while.asp
+
+
+for(let i = 1; i <= 50; i++) {
+    if (i % 2 == 0) {
+        console.log(`${i} is even`);
+    }
+}
