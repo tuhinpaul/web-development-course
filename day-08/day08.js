@@ -7,6 +7,7 @@
 
 // Next Day (Day 09):
 // reference
+// lambda function
 // class
 // promise
 // promise chain
